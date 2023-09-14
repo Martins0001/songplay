@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocoSounds</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+   <div id="musica-container" style="border: solid black 3px;">
+        <h5 id="titulo"> Musica On! </h5>
+        <img id="imagem" alt="Disc Cover."></img>
+        <audio id="som" ></audio>
+        <div id="capabaixo">
+            <div id="musica">
+                <div id="song-name"> Nome da musica </div>
+                <div id="band-name" class="lightcolor"> banda </div>
+            </div>
+            <button id="like" class="button"><i class="bi bi-heart"></i></button>
+        </div>
+        <div id="barra-progresso"> 
+            <div id="progresso-atual"></div>       
+        </div>
+        <div id="botao">
+            <button id="aleatorio" class="button"><i class="bi bi-shuffle"></i></button>
+            <button id="back" class="button-big"><i class="bi bi-skip-start-fill"></i></button>
+            <button id="play" class="button-big"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="next" class="button-big"><i class="bi bi-skip-end-fill"></i></button>
+            <button id="repet" class="button"><i class="bi bi-repeat"></i></button>
+        </div>
+    </div>
+    <script src="/codigo.js"></script>  
+</body>
+</html>
