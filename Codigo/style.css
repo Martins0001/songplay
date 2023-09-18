@@ -1,61 +1,66 @@
-body{
-    background-image: linear-gradient(
-    rgb(48, 223, 223),
-    rgb(19, 95, 95));
+body {
+    background-image: linear-gradient(rgb(48, 223, 223),
+            rgb(19, 95, 95));
     height: 130vh;
-    color:white;
-    font-family: sans-serif; 
+    color: white;
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
 }
-button{
+
+button {
     background-color: inherit;
     color: inherit;
     border: none;
 
 }
 
-h5{
+h5 {
     color: black;
 }
 
-#capabaixo{
+#capabaixo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 2em 0 1em 0;
 }
-#botao{
+
+#botao {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-around;
-    
+    justify-content: space-around;
+
 }
-.button-like{
+
+.button-like {
     font-size: 1.5em;
 }
-.button{
+
+.button {
     font-size: 2em;
 }
-.button-big{
+
+.button-big {
     font-size: 4em;
 }
-#imagem{
+
+#imagem {
     width: 350px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
-#titulo{
+
+#titulo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: blue;
     border-radius: 10%;
-    background: linear-gradient(
-    rgb(150,92,200),
-    rgb(200,92,150));
+    background: linear-gradient(rgb(150, 92, 200),
+            rgb(200, 92, 150));
     border-radius: 30px;
     height: 50px;
     margin: 20px;
@@ -67,35 +72,46 @@ h5{
     font-weight: 700;
     border: 2px solid black;
 }
-#song-name{
+
+#song-name {
     font-size: 2em;
     font-weight: bolder;
 }
-#song-band{
+
+#song-band {
     font-size: 0.5em;
 }
-.lightcolor{
+
+.lightcolor {
     color: rgb(139, 153, 156);
 }
-#barra-progresso{
+
+#barra-progresso {
     background-color: rgb(139, 153, 156);
     height: 3px;
     width: 100%;
     border-radius: 20px;
     margin: 0 0 1em 0;
-} 
-#progresso-atual{
+}
+
+#progresso-atual {
     background-color: white;
     height: inherit;
-    width: 50%;
+    width: 0%;
     border-radius: inherit;
 }
-#musica-container{
+
+#musica-container {
     padding: 20px;
     margin: 10px;
-    background: linear-gradient(
-        rgb(150,92,200),
-        rgb(200,92,150));
+    background: linear-gradient(rgb(150, 92, 200),
+            rgb(200, 92, 150));
     border-radius: 10%;
 }
 
+#tempo-Total {
+    position: relative;
+    right: -300px;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
